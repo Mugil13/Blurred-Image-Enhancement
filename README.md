@@ -1,10 +1,10 @@
-# 🖼️ Image Deblurring with Convolutional Autoencoders
+# Image Deblurring with Convolutional Autoencoders
 
 This project implements a deep learning-based image restoration model that removes blur from defocused images using convolutional autoencoders.
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - **Encoder**: Multiple Conv2D layers to compress features  
 - **Latent Space**: Bottleneck representation  
@@ -14,36 +14,31 @@ This project implements a deep learning-based image restoration model that remov
 
 ---
 
-## 📊 Evaluation & Outputs
+## Evaluation & Outputs
 
 - Qualitative comparison: Input vs Ground Truth vs Predicted  
 - Metrics: MSE, Accuracy (optional display)  
 
 ---
 
-## 📁 Dataset Structure
+## Dataset Structure
 
 - `sharp/`: Directory containing sharp (clean) images  
 - `defocused_blurred/`: Directory containing blurred images  
 
 ---
 
-## 🔧 How to Run
-
-### ▶️ On Google Colab
-Click the **Open in Colab** badge above.
-
-### 💻 Locally
+## How to Run
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
-pip install -r requirements.txt  # Optional if using requirements file
+pip install -r requirements.txt
 jupyter notebook
 ```
 
 ---
 
-## 📌 Dependencies
+## Dependencies
 
 Install using:
 
