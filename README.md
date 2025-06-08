@@ -30,7 +30,7 @@ This project implements a deep learning-based image restoration model that remov
 
 ## How to Run
 ```bash
-git clone https://github.com/Mugil13/your-repo-name.git
+git clone https://github.com/Mugil13/Blurred-Image-Enhancement.git
 cd your-repo-name
 pip install -r requirements.txt
 jupyter notebook
